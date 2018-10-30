@@ -1,4 +1,3 @@
-我不是乱码
 ## git
 Git is a distributed version control system.
 ## 知识点
@@ -48,11 +47,24 @@ Fast-forward
  readme.txt | 1 +
  1 file changed, 1 insertion(+)
 ```
-处于master分支进行了修改。和远程master分支同步，本次修改后将超前
-hahaha 现在dev和我没关系了
-
-
-
+#### 2.解决冲突
+出现在合并分支的时候
+我们到底应该保留哪一部分呢？ 到底哪一部分才是最新的修改？ 天啊 我分不清了
+此时处于master分支 ，合并了feature1的内容
+注意现在
+〈〈〈〈〈〈HEAD
+=======
+这部分的内容 ， 是master分支上的， 下面的这个 >>>>> feature1 才是合并进来的分支上的内容
+```
+〈〈〈〈HEAD
+我不是乱码
+=======
+djadjsjd
+〉〉〉〉〉 feature1
+```
+#### 图形化查看提交记录
+git log --graph 
+#### 使用 --no-ff 采取普通模式合并，合并后的历史有分支，能看出曾经做过合并
 
 
 
