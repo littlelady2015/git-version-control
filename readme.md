@@ -1,3 +1,4 @@
+我不是乱码
 ## git
 Git is a distributed version control system.
 ## 知识点
