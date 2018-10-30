@@ -47,7 +47,7 @@ Fast-forward
  readme.txt | 1 +
  1 file changed, 1 insertion(+)
 ```
-处于dev分支进行了修改。和远程master分支同步，本次修改后将超前
+处于dev分支进行了修改。和远程dev分支同步，本次修改后将超前
 
 
 
